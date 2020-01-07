@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Counter from './components/Counter';
 
 ReactDOM.render(
     <div>
-        <Counter number={0}></Counter>
+        <h1>Counter -</h1>
+        <Counter start={0}></Counter>
     </div>, document.getElementById('root'));
