@@ -15,6 +15,7 @@ export default class Counter extends Component {
     render() {
         return (
             <div>
+                <h1>Counter with Class -</h1>
                 <div>Counter: {this.state.number}</div>
                 <button onClick={() => this.sub(10)}>Sub 10</button>
                 <button onClick={() => this.sub(1)}>Sub 1</button>

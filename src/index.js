@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Counter from './components/Counter';
+import Hooks from './components/Hooks';
 
 ReactDOM.render(
     <div>
-        <h1>Counter -</h1>
         <Counter start={0}></Counter>
+        <Hooks></Hooks>
     </div>, document.getElementById('root'));
